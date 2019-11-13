@@ -7,7 +7,7 @@ import {
   ElementRef,
   OnChanges,
   SimpleChanges
-} from "@angular/core";
+} from '@angular/core';
 
 @Component({
   selector: "app-cockpit",
