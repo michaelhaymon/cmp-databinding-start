@@ -29,15 +29,15 @@ export class CockpitComponent implements OnInit, OnChanges {
   serverContentInput: ElementRef;
 
   constructor() {
-    console.log("Constructor Called?");
+    console.log("Constructor Called!");
   }
 
   ngOnChanges(changes: SimpleChanges) {
-    console.log("ngOnChanges Called?");
+    console.log("ngOnChanges Called!");
   }
 
   ngOnInit() {
-    console.log("ngOnInit Called?");
+    console.log("ngOnInit Called!");
   }
 
   onAddServer(nameInput: HTMLInputElement, contentInput: HTMLInputElement) {
