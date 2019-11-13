@@ -33,7 +33,7 @@ export class CockpitComponent implements OnInit, OnChanges {
   }
 
   ngOnChanges(changes: SimpleChanges) {
-    console.log("ngOnChanges Called*");
+    console.log('ngOnChanges Called*');
   }
 
   ngOnInit() {
