@@ -43,7 +43,7 @@ export class ServerElementComponent
   }
 
   ngOnInit() {
-    console.log('OnInit Called!');
+    console.log('OnInit called!');
     console.log('Text Content: ', this.header.nativeElement.textContent);
   }
 
